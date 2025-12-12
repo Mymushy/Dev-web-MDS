@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pierre FOUESNANT</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
-      href="./image/creation-du-logo-mascotte-quokka_779267-928-Photoroom.png"
+      href="image/creation-du-logo-mascotte-quokka_779267-928-Photoroom.png"
     />
   </head>
   <body>
@@ -30,15 +30,15 @@
               <span class="texte_modif">Cybersécurité</span>
             </p>
             <div class="texte_cv">
-              <a href="./CV pierre.pdf" target="_blank" download>
-                <img src="./image/cv.png" alt="cv" />
+              <a href="CV%20pierre.pdf" target="_blank" download>
+                <img src="image/cv.png" alt="cv" />
               </a>
               <p>Mon CV</p>
             </div>
           </div>
           <div class="ti_image">
             <img
-              src="./image/270f604ba6bcc9df5dc6b2d01e0a6fb2d4-barbie-ken.1x.rsquare.w1400  (1).jpeg"
+              src="image/270f604ba6bcc9df5dc6b2d01e0a6fb2d4-barbie-ken.1x.rsquare.w1400%20%20(1).jpeg"
               alt="photo de profil"
             />
           </div>
@@ -74,14 +74,14 @@
         <h2>Projets</h2>
         <div id="liste_projet">
           <div class="exemple">
-            <img src="./image/dépliant.png" alt="Dépliant pour MDS" />
+            <img src="image/dépliant.png" alt="Dépliant pour MDS" />
             <p>Dépliant pour l'école MDS</p>
             <a href="Encours.html" class="push">En savoir plus</a>
           </div>
 
           <div class="exemple">
             <img
-              src="./image/png-clipart-antivirus-software-computer-security-software-computer-virus-360-safeguard-virus-protection-heart-logo-removebg-preview.png"
+              src="image/png-clipart-antivirus-software-computer-security-software-computer-virus-360-safeguard-virus-protection-heart-logo-removebg-preview.png"
               alt="Application de contrôle de Sécurité"
             />
             <p>Logiciel de vérification d'applications</p>
@@ -89,14 +89,14 @@
           </div>
 
           <div class="exemple">
-            <img src="./image/abcd.png" alt="Site de e-learning cyber" />
+            <img src="image/abcd.png" alt="Site de e-learning cyber" />
             <p>Site de e-learning</p>
             <a href="Encours.html" class="push">En savoir plus</a>
           </div>
 
           <div class="exemple">
             <img
-              src="./image/Gemini_Generated_Image_5rbljr5rbljr5rbl (2).png"
+              src="image/Gemini_Generated_Image_5rbljr5rbljr5rbl%20(2).png"
               alt="Portfolio d'un client"
             />
             <p>Affiche pub d'un client</p>
@@ -116,7 +116,7 @@
                     href="https://www.instagram.com/pierre_fsnt"
                     target="_blank"
                   >
-                    <img src="./image/instagram.png" alt="instagram" />
+                    <img src="image/instagram.png" alt="instagram" />
                   </a>
                 </div>
                 <div class="textelogo">
@@ -127,7 +127,7 @@
               <div class="mejoindre">
                 <div class="logo">
                   <a href="https://github.com/Mymushy" target="_blank">
-                    <img src="./image/github.png" alt="github" />
+                    <img src="image/github.png" alt="github" />
                   </a>
                 </div>
                 <div class="textelogo">
@@ -143,7 +143,7 @@
                     href="https://www.linkedin.com/in/pierre-fouesnant-17bb24176"
                     target="_blank"
                   >
-                    <img src="./image/linkedin.png" alt="linkedin" />
+                    <img src="image/linkedin.png" alt="linkedin" />
                   </a>
                 </div>
                 <div class="textelogo">
@@ -153,8 +153,8 @@
 
               <div class="mejoindre">
                 <div class="logo">
-                  <a href="../Portfolio/CV pierre.pdf" target="_blank" download>
-                    <img src="./image/cv.png" alt="cv" />
+                  <a href="CV%20pierre.pdf" target="_blank" download>
+                    <img src="image/cv.png" alt="cv" />
                   </a>
                 </div>
                 <div class="textelogo">
@@ -165,19 +165,21 @@
           </div>
 
           <div id="formulaire">
-            <div class="formu_nom">
-              <label for="Nom">Nom : </label>
-              <input type="text" id="name" />
-            </div>
-            <div class="formu_mail">
-              <label for="email">Email : </label>
-              <input type="email" id="email" />
-            </div>
-            <div class="formu_mess">
-              <label for="Message">Message : </label>
-              <textarea name="Message" id="Message"></textarea>
-            </div>
-            <button type="submit" class="envoi">Envoyer le message</button>
+            <form action="#" method="POST">
+              <div class="formu_nom">
+                <label for="Nom">Nom : </label>
+                <input type="text" id="name" required />
+              </div>
+              <div class="formu_mail">
+                <label for="email">Email : </label>
+                <input type="email" id="email" required />
+              </div>
+              <div class="formu_mess">
+                <label for="Message">Message : </label>
+                <textarea name="Message" id="Message"></textarea>
+              </div>
+              <button type="submit" class="envoi">Envoyer le message</button>
+            </form>
           </div>
         </div>
       </section>

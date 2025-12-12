@@ -296,6 +296,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 #formulaire input[type="text"],
@@ -335,3 +336,7 @@ p {
   background-color: #ff3d9f;
   border: 3px solid #1e2135;
 }
+.envoi:active {
+    transform: translate(4px, 4px); 
+}
+
